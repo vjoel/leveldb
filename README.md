@@ -7,6 +7,10 @@ Original docs:
 
 * [README] (README)
 * [LICENSE] (LICENSE)
+* [AUTHORS] (AUTHORS)
+* [NEWS] (NEWS)
+* [TODO] (TODO)
+* [API] (doc/index.html)
 
 Changes
 -------
