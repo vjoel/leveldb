@@ -15,6 +15,27 @@ Original docs:
 Changes
 -------
 
-* Installation:
+This fork differs from the official version of leveldb as follows:
 
-  LevelDB can be installed using `make install`. The install target in the Makefile is as described in issue #138 on the google tracker: http://code.google.com/p/leveldb/issues/detail?id=138.
+* Installation is supported by the makefile.
+
+Installation
+------------
+
+First, build the library with:
+  
+    make
+
+Then, LevelDB can be installed using
+  
+    sudo make install
+  
+The install target in the Makefile is as described in issue #138 on the google tracker: http://code.google.com/p/leveldb/issues/detail?id=138.
+
+You can set the following env vars before running `make` if you prefer different installation locations:
+  
+  * PREFIX (default is /usr/local)
+
+  * LIBDIR (default is $PREFIX/lib)
+
+  * INCLUDEDIR (default is $PREFIX/include)
